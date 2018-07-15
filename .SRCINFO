@@ -5,6 +5,7 @@ pkgbase = prometheus-node-exporter-bin
 	url = https://github.com/prometheus/node_exporter
 	arch = x86_64
 	arch = armv7h
+	arch = aarch64
 	license = Apache
 	provides = prometheus-node-exporter
 	conflicts = prometheus-node-exporter
@@ -16,6 +17,10 @@ pkgbase = prometheus-node-exporter-bin
 	source_armv7h = https://github.com/prometheus/node_exporter/releases/download/v0.16.0/node_exporter-0.16.0.linux-armv7.tar.gz
 	sha256sums_armv7h = df4ef8a34999ac2acedead7a48e67da31e0b65a29e4570d3075cd8ca663cf1d0
 	sha256sums_armv7h = b8bf44c025ec2c5210bdda185f8e72b29ccd3eb9be339b8dbf96835d4fc1965d
+	source_aarch64 = prometheus-node-exporter.service
+	source_aarch64 = https://github.com/prometheus/node_exporter/releases/download/v0.16.0/node_exporter-0.16.0.linux-arm64.tar.gz
+	sha256sums_aarch64 = df4ef8a34999ac2acedead7a48e67da31e0b65a29e4570d3075cd8ca663cf1d0
+	sha256sums_aarch64 = c793e8278ec6a167a49518d72dd928361a045bd4c8b155a22d5b158dd3aea2ac
 
 pkgname = prometheus-node-exporter-bin
 
